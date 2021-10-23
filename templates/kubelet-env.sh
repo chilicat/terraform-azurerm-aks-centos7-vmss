@@ -1,0 +1,1 @@
+KUBELET_NODE_LABELS=agentpool=${agentpool},kubernetes.azure.com/role=agent,storageprofile=managed,storagetier=Premium_LRS,kubernetes.azure.com/os-sku=Centos,kubernetes.azure.com/cluster=${resource_group_name},kubernetes.azure.com/mode=user,kubernetes.azure.com/node-image-version=AvidCentos,nexis-supported=true
