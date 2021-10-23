@@ -4,11 +4,11 @@ variable "name" {
 }
 
 variable "resource_group_name" {
-    description = "Resource group name where the AKS is deployed."
+    description = "Resource group name where the AKS instances is deployed"
     default = "dk-aks2"
 }
 variable "aks_name" {
-    description = "Name of an existing AKS instance"
+    description = "Name of the existing AKS instance"
     default = "aks"
 }
 
