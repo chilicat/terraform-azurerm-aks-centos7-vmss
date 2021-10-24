@@ -9,7 +9,7 @@ This module provides a recipe of how to add your custom centos workers to an exi
 ## How to use this Module
 
 Create an AKS instance. Since this module doe not support all versions and all features of AKS you can use 
-the terraform module in the [examples](examples) folder to get started.
+the terraform module in the [examples](https://github.com/chilicat/terraform-azurerm-aks-centos7-vmss/tree/master/examples) folder to get started.
 
 Create the AKS cluster:
 ```
